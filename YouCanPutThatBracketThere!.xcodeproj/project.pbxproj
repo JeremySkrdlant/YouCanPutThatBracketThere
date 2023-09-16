@@ -74,19 +74,10 @@
 			children = (
 				841C29AE2AB606DF00200070 /* YouCanPutThatBracketThere--Info.plist */,
 				841C29982AB3E8A900200070 /* YouCanPutThatBracketThere_App.swift */,
-				841C299A2AB3E8A900200070 /* ContentView.swift */,
-				841C29A62AB3EAA700200070 /* QuotesIntroView.swift */,
-				841C29A82AB3ED3900200070 /* QuotesQuizView.swift */,
-				841C29AF2AB60D2800200070 /* FunctionStructureIntroView.swift */,
-				841C29B12AB60F4D00200070 /* FunctionsBracketsQuiz.swift */,
-				84ED1C972AB61FD200616FCE /* SquareBracketsIntro.swift */,
-				84ED1C992AB6203200616FCE /* SquareBracketQuiz.swift */,
-				84ED1C9B2AB6205200616FCE /* FinalChallenge.swift */,
+				84ED1C9E2AB622B600616FCE /* Components */,
+				84ED1C9D2AB622AC00616FCE /* Views */,
 				841C299C2AB3E8AA00200070 /* Assets.xcassets */,
 				841C299E2AB3E8AA00200070 /* Preview Content */,
-				841C29AA2AB3EED100200070 /* CustomDropSpot.swift */,
-				841C29AC2AB6056600200070 /* CustomDropData.swift */,
-				84ED1C952AB6143100616FCE /* NextPageButton.swift */,
 			);
 			path = "YouCanPutThatBracketThere!";
 			sourceTree = "<group>";
@@ -97,6 +88,31 @@
 				841C299F2AB3E8AA00200070 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		84ED1C9D2AB622AC00616FCE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				841C299A2AB3E8A900200070 /* ContentView.swift */,
+				841C29A62AB3EAA700200070 /* QuotesIntroView.swift */,
+				841C29A82AB3ED3900200070 /* QuotesQuizView.swift */,
+				841C29AF2AB60D2800200070 /* FunctionStructureIntroView.swift */,
+				841C29B12AB60F4D00200070 /* FunctionsBracketsQuiz.swift */,
+				84ED1C972AB61FD200616FCE /* SquareBracketsIntro.swift */,
+				84ED1C992AB6203200616FCE /* SquareBracketQuiz.swift */,
+				84ED1C9B2AB6205200616FCE /* FinalChallenge.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		84ED1C9E2AB622B600616FCE /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				841C29AA2AB3EED100200070 /* CustomDropSpot.swift */,
+				841C29AC2AB6056600200070 /* CustomDropData.swift */,
+				84ED1C952AB6143100616FCE /* NextPageButton.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

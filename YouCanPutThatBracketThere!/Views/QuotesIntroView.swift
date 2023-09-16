@@ -15,9 +15,14 @@ struct QuotesIntroView: View {
                 .font(.system(.title))
             Divider()
             ScrollView{
-                Text("Basic String Usage")
-                Text("Variables in a String")
-                Text("String as a paramgeter")
+                Text("Creating a String")
+                //Show how to create a string
+                
+                Text("Adding variables to a String")
+                //Give an example of a string with a variable
+                
+                Text("Using a String as a parameter")
+                //Show a string going into an Image( )
                 
             }
             Spacer()

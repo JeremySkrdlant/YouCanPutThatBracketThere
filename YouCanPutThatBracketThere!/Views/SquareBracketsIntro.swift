@@ -13,6 +13,9 @@ struct SquareBracketsIntro: View {
             Text("Square brackets & Arrays")
                 .font(.system(.title))
             Divider()
+            //Overview of how to create an array
+            
+            //Overview on how to call an element from an array.
             Spacer()
             NextPageButton(destination: SquareBracketQuiz())
         }
