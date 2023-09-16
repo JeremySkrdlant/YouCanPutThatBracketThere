@@ -15,61 +15,49 @@ struct ContentView: View {
                     .font(.system(.title))
                 Divider()
                 Spacer()
-                HStack{
-                    Spacer()
-                    VStack{
-                        Text("Quotes ")
-                            .bold()
-                            .foregroundColor(.black)
-                        Text("\" \"")
-                            .font(.system(size: 50))
-                            .foregroundColor(.indigo)
-                        
-                        Text("Parenthasis")
-                            .bold()
-                            .foregroundColor(.black)
-                        Text("( )")
-                            .font(.system(size: 50))
-                            .foregroundColor(.indigo)
-                            .padding(.bottom, 20)
+                VStack{
+                    HStack (alignment:.top){
+                        VStack{
+                            Text("Quotes ")
+                                .bold()
+                                .foregroundColor(.black)
+                            Text("\" \"")
+                                .font(.system(size: 40))
+                                .foregroundColor(.indigo)
+                        }.frame(width: 150)
+                        VStack{
+                            Text("Parenthasis")
+                                .bold()
+                                .foregroundColor(.black)
+                            Text("( )")
+                                .font(.system(size: 40))
+                                .foregroundColor(.indigo)
+                                .padding(.bottom, 20)
+                        }.frame(width: 150)
                     }
-                    Spacer()
-                    VStack{
-                        Text("Curly Brackets")
-                            .bold()
-                            .foregroundColor(.black)
-                        Text("{ }")
-                            .font(.system(size: 50))
-                            .foregroundColor(.indigo)
-                            .padding(.bottom, 20)
-                        
-                        Text("Square Brackets")
-                            .bold()
-                            .foregroundColor(.black)
-                        Text("[ ]")
-                            .font(.system(size: 50))
-                            .foregroundColor(.indigo)
+                    HStack(alignment:.top){
+                        VStack{
+                            Text("Curly Brackets")
+                                .bold()
+                                .foregroundColor(.black)
+                            Text("{ }")
+                                .font(.system(size: 40))
+                                .foregroundColor(.indigo)
+                                .padding(.bottom, 20)
+                        }.frame(width: 150)
+                        VStack{
+                            Text("Square Brackets")
+                                .bold()
+                                .foregroundColor(.black)
+                            Text("[ ]")
+                                .font(.system(size: 40))
+                                .foregroundColor(.indigo)
+                        }.frame(width: 150)
                     }
-                    Spacer()
                     
                 }
                 Spacer()
-                HStack{
-                    Spacer()
-                    NavigationLink("Let's Begin!", destination: QuotesIntroView())
-                        .bold()
-                        .font(.system(size: 30))
-                        .kerning(1.2)
-                    Spacer()
-                }
-                .padding(.vertical, 10)
-                .background(
-                    Color.white
-                        .border(Color.gray.opacity(0.4))
-                )
-                .padding()
-                    
-                
+                NextPageButton(title: "Let's Begin!", destination: QuotesIntroView())
             }
         }
         .padding()

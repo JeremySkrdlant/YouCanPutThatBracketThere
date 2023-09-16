@@ -14,8 +14,8 @@ struct QuotesQuizView: View {
             Text("Drop the Quotes in the correct Spots.")
                 .font(.system(.title))
             Divider()
-            HStack{
-                HStack{
+            HStack (spacing:0){
+                HStack(spacing:0){
                     Text("Text(")
                     CustomDropSpot(correctValue: "\""){
                         id in
@@ -31,7 +31,7 @@ struct QuotesQuizView: View {
                     CustomDropSpot(puzzleComplete: thingsToDrop.count == 0)
                     Text(") ")
                 }
-                HStack{
+                HStack(spacing: 0){
                     CustomDropSpot(puzzleComplete: thingsToDrop.count == 0)
                     Text("tip.")
                     CustomDropSpot(correctValue: "\"")
@@ -47,7 +47,7 @@ struct QuotesQuizView: View {
                 }
             }.frame(height: 50)
             
-            HStack{
+            HStack(spacing: 50){
                 ForEach(thingsToDrop, id:\.id){
                     item in
                     Text(item.text)
@@ -61,20 +61,7 @@ struct QuotesQuizView: View {
             }
             Spacer()
             if thingsToDrop.count == 0 {
-                HStack{
-                    Spacer()
-                    NavigationLink("NextChallenge", destination: FunctionStructureIntroView())
-                        .bold()
-                        .font(.system(size: 30))
-                        .kerning(1.2)
-                    Spacer()
-                }
-                .padding(.vertical, 10)
-                .background(
-                    Color.white
-                        .border(Color.gray.opacity(0.4))
-                )
-                .padding()
+                NextPageButton( destination: FunctionStructureIntroView())
                 
             }
             

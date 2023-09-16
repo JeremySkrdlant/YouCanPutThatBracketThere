@@ -24,6 +24,7 @@ struct CustomDropSpot: View {
                     .frame(width: 20, height: 40)
                     .border(Color.gray.opacity(0.3))
                     .shadow(radius: 2)
+                    .padding(.horizontal, 5)
                     .dropDestination (for: DragTextItem.self){ items, location in
                         if let correctValue = correctValue{
                             if items.count > 1

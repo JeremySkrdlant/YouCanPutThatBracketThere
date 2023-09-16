@@ -21,20 +21,8 @@ struct QuotesIntroView: View {
                 
             }
             Spacer()
-            HStack{
-                Spacer()
-                NavigationLink("Next", destination: QuotesQuizView())
-                    .bold()
-                    .font(.system(size: 30))
-                    .kerning(1.2)
-                Spacer()
-            }
-            .padding(.vertical, 10)
-            .background(
-                Color.white
-                    .border(Color.gray.opacity(0.4))
-            )
-            .padding()
+            NextPageButton(title: "Test Your Knowledge",destination: QuotesQuizView())
+            
         }
         
     }
