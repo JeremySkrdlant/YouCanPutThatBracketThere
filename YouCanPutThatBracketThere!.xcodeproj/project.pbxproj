@@ -11,6 +11,12 @@
 		841C299B2AB3E8A900200070 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841C299A2AB3E8A900200070 /* ContentView.swift */; };
 		841C299D2AB3E8AA00200070 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841C299C2AB3E8AA00200070 /* Assets.xcassets */; };
 		841C29A02AB3E8AA00200070 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841C299F2AB3E8AA00200070 /* Preview Assets.xcassets */; };
+		841C29A72AB3EAA700200070 /* QuotesIntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841C29A62AB3EAA700200070 /* QuotesIntroView.swift */; };
+		841C29A92AB3ED3900200070 /* QuotesQuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841C29A82AB3ED3900200070 /* QuotesQuizView.swift */; };
+		841C29AB2AB3EED100200070 /* CustomDropSpot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841C29AA2AB3EED100200070 /* CustomDropSpot.swift */; };
+		841C29AD2AB6056600200070 /* CustomDropData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841C29AC2AB6056600200070 /* CustomDropData.swift */; };
+		841C29B02AB60D2800200070 /* FunctionStructureIntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841C29AF2AB60D2800200070 /* FunctionStructureIntroView.swift */; };
+		841C29B22AB60F4D00200070 /* FunctionsBracketsQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841C29B12AB60F4D00200070 /* FunctionsBracketsQuiz.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,13 @@
 		841C299A2AB3E8A900200070 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		841C299C2AB3E8AA00200070 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		841C299F2AB3E8AA00200070 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		841C29A62AB3EAA700200070 /* QuotesIntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesIntroView.swift; sourceTree = "<group>"; };
+		841C29A82AB3ED3900200070 /* QuotesQuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesQuizView.swift; sourceTree = "<group>"; };
+		841C29AA2AB3EED100200070 /* CustomDropSpot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDropSpot.swift; sourceTree = "<group>"; };
+		841C29AC2AB6056600200070 /* CustomDropData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDropData.swift; sourceTree = "<group>"; };
+		841C29AE2AB606DF00200070 /* YouCanPutThatBracketThere--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "YouCanPutThatBracketThere--Info.plist"; sourceTree = SOURCE_ROOT; };
+		841C29AF2AB60D2800200070 /* FunctionStructureIntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionStructureIntroView.swift; sourceTree = "<group>"; };
+		841C29B12AB60F4D00200070 /* FunctionsBracketsQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionsBracketsQuiz.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +64,17 @@
 		841C29972AB3E8A900200070 /* YouCanPutThatBracketThere! */ = {
 			isa = PBXGroup;
 			children = (
+				841C29AE2AB606DF00200070 /* YouCanPutThatBracketThere--Info.plist */,
 				841C29982AB3E8A900200070 /* YouCanPutThatBracketThere_App.swift */,
 				841C299A2AB3E8A900200070 /* ContentView.swift */,
+				841C29A62AB3EAA700200070 /* QuotesIntroView.swift */,
+				841C29A82AB3ED3900200070 /* QuotesQuizView.swift */,
+				841C29AF2AB60D2800200070 /* FunctionStructureIntroView.swift */,
+				841C29B12AB60F4D00200070 /* FunctionsBracketsQuiz.swift */,
 				841C299C2AB3E8AA00200070 /* Assets.xcassets */,
 				841C299E2AB3E8AA00200070 /* Preview Content */,
+				841C29AA2AB3EED100200070 /* CustomDropSpot.swift */,
+				841C29AC2AB6056600200070 /* CustomDropData.swift */,
 			);
 			path = "YouCanPutThatBracketThere!";
 			sourceTree = "<group>";
@@ -137,8 +157,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841C29B02AB60D2800200070 /* FunctionStructureIntroView.swift in Sources */,
+				841C29A92AB3ED3900200070 /* QuotesQuizView.swift in Sources */,
 				841C299B2AB3E8A900200070 /* ContentView.swift in Sources */,
+				841C29A72AB3EAA700200070 /* QuotesIntroView.swift in Sources */,
+				841C29AD2AB6056600200070 /* CustomDropData.swift in Sources */,
+				841C29AB2AB3EED100200070 /* CustomDropSpot.swift in Sources */,
 				841C29992AB3E8A900200070 /* YouCanPutThatBracketThere_App.swift in Sources */,
+				841C29B22AB60F4D00200070 /* FunctionsBracketsQuiz.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +296,12 @@
 				DEVELOPMENT_TEAM = FWJLKRF7KR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "YouCanPutThatBracketThere--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,11 +326,12 @@
 				DEVELOPMENT_TEAM = FWJLKRF7KR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "YouCanPutThatBracketThere--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
