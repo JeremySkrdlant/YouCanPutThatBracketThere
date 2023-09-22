@@ -16,13 +16,28 @@ struct QuotesIntroView: View {
             Divider()
             ScrollView{
                 Text("Creating a String")
-                //Show how to create a string
+                    .font(.title2)
+                Text("\"I'm a little lad who loves berries and cream\"")
+                    .padding(.bottom)
                 
                 Text("Adding variables to a String")
-                //Give an example of a string with a variable
+                    .font(.title2)
+                Text("var name = \"Bjorn Ragnarsson\"")
+                Text("var string = \"My name is \\(name)\"")
+                Text("The string should read \"My name is Bjorn Ragnarsson\"")
+                    .padding(.bottom)
                 
-                Text("Using a String as a parameter")
-                //Show a string going into an Image( )
+                
+                
+                Text("Using a String as a function parameter")
+                    .font(.title2)
+                Text("func getName (name: String){ return name }")
+                    .padding(.bottom)
+                Text("Using Strings as element parameters.")
+                    .font(.title2)
+                Text("Image(\"pictureName\") ")
+                
+                
                 
             }
             Spacer()
@@ -35,6 +50,6 @@ struct QuotesIntroView: View {
 
 struct QuotesIntroView_Previews: PreviewProvider {
     static var previews: some View {
-        QuotesIntroView()
+        QuotesIntroView().previewInterfaceOrientation(.landscapeLeft)
     }
 }

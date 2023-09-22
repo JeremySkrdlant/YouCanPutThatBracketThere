@@ -83,6 +83,6 @@ struct FunctionStructureIntroView: View {
 
 struct FunctionStructureIntroView_Previews: PreviewProvider {
     static var previews: some View {
-        FunctionStructureIntroView()
+        FunctionStructureIntroView().previewInterfaceOrientation(.landscapeLeft)
     }
 }
