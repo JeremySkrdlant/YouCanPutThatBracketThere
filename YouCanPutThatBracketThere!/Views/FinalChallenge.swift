@@ -23,9 +23,10 @@ struct FinalChallenge: View {
                     VStack{
                         Text("Fill in the missing structures.").padding(.bottom)
                         Text("struct CompletedHomework {")
-                        Text("var assignments = ")
+                        
                     }
                     HStack{
+                        Text("var assignments = ")
                         CustomDropSpot(correctValue: "["){
                             id in
                             thingsToDrop = thingsToDrop.filter({ item in
@@ -46,7 +47,7 @@ struct FinalChallenge: View {
                                 return item.id != id
                             })
                         }
-                        Text(",")
+                      
                     }
                     HStack{
                         Text("var class: String ")
@@ -132,7 +133,9 @@ struct FinalChallenge: View {
                     }
                 }
                 Spacer()
+            if(thingsToDrop.count == 0){
                 NextPageButton(destination: WinningScreenView())
+            }
             
            
             

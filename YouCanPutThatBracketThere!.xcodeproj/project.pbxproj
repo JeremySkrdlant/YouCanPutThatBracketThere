@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		172023B62AC105AB008430CB /* Wrong.wav in Resources */ = {isa = PBXBuildFile; fileRef = 172023B52AC105AB008430CB /* Wrong.wav */; };
 		48FDF30E2ABC83BB00A948C6 /* Correct.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48FDF30D2ABC83BB00A948C6 /* Correct.wav */; };
 		48FDF3122ABCA98F00A948C6 /* WinningScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FDF3112ABCA98F00A948C6 /* WinningScreenView.swift */; };
-		48FDF3162ABDED2100A948C6 /* Wrong.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48FDF3152ABDED2100A948C6 /* Wrong.wav */; };
 		841C29992AB3E8A900200070 /* YouCanPutThatBracketThere_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841C29982AB3E8A900200070 /* YouCanPutThatBracketThere_App.swift */; };
 		841C299B2AB3E8A900200070 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841C299A2AB3E8A900200070 /* ContentView.swift */; };
 		841C299D2AB3E8AA00200070 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841C299C2AB3E8AA00200070 /* Assets.xcassets */; };
@@ -27,9 +27,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		172023B52AC105AB008430CB /* Wrong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Wrong.wav; path = ../../../../Downloads/Wrong.wav; sourceTree = "<group>"; };
 		48FDF30D2ABC83BB00A948C6 /* Correct.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Correct.wav; path = "../Preview Content/Correct.wav"; sourceTree = "<group>"; };
 		48FDF3112ABCA98F00A948C6 /* WinningScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinningScreenView.swift; sourceTree = "<group>"; };
-		48FDF3152ABDED2100A948C6 /* Wrong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Wrong.wav; path = ../../../variabletypestutorial/VariableTypesTutorial/Wrong.wav; sourceTree = "<group>"; };
 		841C29952AB3E8A900200070 /* YouCanPutThatBracketThere!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YouCanPutThatBracketThere!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		841C29982AB3E8A900200070 /* YouCanPutThatBracketThere_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouCanPutThatBracketThere_App.swift; sourceTree = "<group>"; };
 		841C299A2AB3E8A900200070 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 		48FDF30C2ABC816400A948C6 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				48FDF3152ABDED2100A948C6 /* Wrong.wav */,
+				172023B52AC105AB008430CB /* Wrong.wav */,
 				48FDF30D2ABC83BB00A948C6 /* Correct.wav */,
 			);
 			path = Sounds;
@@ -192,7 +192,7 @@
 			files = (
 				841C29A02AB3E8AA00200070 /* Preview Assets.xcassets in Resources */,
 				48FDF30E2ABC83BB00A948C6 /* Correct.wav in Resources */,
-				48FDF3162ABDED2100A948C6 /* Wrong.wav in Resources */,
+				172023B62AC105AB008430CB /* Wrong.wav in Resources */,
 				841C299D2AB3E8AA00200070 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

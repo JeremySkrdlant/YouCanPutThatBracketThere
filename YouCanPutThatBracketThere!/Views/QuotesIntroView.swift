@@ -23,7 +23,7 @@ struct QuotesIntroView: View {
                 Text("Adding variables to a String")
                     .font(.title2)
                 Text("var name = \"Bjorn Ragnarsson\"")
-                Text("var string = \"My name is \\(name)\"")
+                Text("var string = \"My name is \\ (name)\"")
                 Text("The string should read \"My name is Bjorn Ragnarsson\"")
                     .padding(.bottom)
                 
